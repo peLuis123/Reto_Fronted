@@ -43,7 +43,7 @@ function App() {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src= {image1} />
+          <Card.Img variant="top" src= {image3} />
           <Card.Body>
             <Card.Title>pregunta 3</Card.Title>
             <Card.Text>

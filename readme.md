@@ -6,5 +6,9 @@ para grabar los videos en tiempo real aremos uso de las siguientes herramientas
 <https://webrtc.github.io/samples/>
 
 Para el presente proyecto se tomo como ayuda 
-
 <https://github.com/Louiso/KrowdyBootCamp4>
+
+
+para iniciar el proyecto utilizar el comando 
+
+<npm run dev>
