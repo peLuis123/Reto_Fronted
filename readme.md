@@ -3,6 +3,7 @@ En el presente reto se propuso elaborar un video cuestionario para lo cual usare
 
 para grabar los videos en tiempo real aremos uso de las siguientes herramientas
 <https://webrtc.github.io/samples/src/content/getusermedia/record/>
+
 <https://webrtc.github.io/samples/>
 
 Para el presente proyecto se tomo como ayuda 
@@ -10,5 +11,10 @@ Para el presente proyecto se tomo como ayuda
 
 
 para iniciar el proyecto utilizar el comando 
+npm run dev
 
-<npm run dev>
+
+
+
+para el conteo de 2 minutos de grabacion se implementara un timer que cuando llegue a 120 segundos se finalizara automaticamente la grabacion 
+//falta implementar las funcionalidades de las preguntas
