@@ -1,0 +1,25 @@
+root = true
+
+[*]
+
+ident_style = space
+
+[*.{cs,js,less,sass,css,yml,ts,tsx}]
+
+ident_size = 2
+
+[*json]
+ident_size = 2
+
+[*php]
+ident_size = 4
+
+
+[*{yaml,yml}]
+ident_size = 4
+
+
+
+[*{html,twig,html.twig}]
+ident_size = 2
+
