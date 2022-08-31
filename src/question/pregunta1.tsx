@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react"
 
 
-function WebCamRecoder() {
+function Question1() {
     const [isRecording, setIsRecording] = useState(false);
 
 
@@ -117,7 +117,8 @@ function WebCamRecoder() {
     return (
         <div>
             <div>
-
+        <h1>Pregunta 1</h1>
+        <h2>Cual fue tu videojuego favorito durante la infancia.</h2>
                 <select id="videoSource" name="videoSource" value={videoSource}>
                     {videoSourceOptions.map((option) => (
                         <option key={option.value} value={option.value}>
@@ -135,10 +136,10 @@ function WebCamRecoder() {
             </div>
             <div>
                 <button onClick={startRecording} disabled={isRecording}>Grabar</button>
-                <button disabled={!isRecording}>Pause</button>
-                <button disabled={!isRecording}>Play</button>
                 <button onClick={stopRecording} disabled={!isRecording}>Stop</button>
             </div>
+
+            
             <div>
                 <video ref={videoRef} autoPlay muted playsInline></video>
                 {error && <p>{error.message}</p>}
@@ -150,6 +151,10 @@ function WebCamRecoder() {
                     <a href={DownloadLInk} download="file.mp4">descargar</a>
                 )}
             </div>
+            <div>
+                <button >Atras</button>
+                <button >Siguiente</button>
+            </div>
             
 
 
@@ -158,4 +163,4 @@ function WebCamRecoder() {
         </div >
     );
 }
-export default WebCamRecoder
+export default Question1
