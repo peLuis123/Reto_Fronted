@@ -8,7 +8,7 @@ import WebCamRecoder from './camera'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-  <WebCamRecoder/>
+    <WebCamRecoder />
   </React.StrictMode>,
   document.getElementById('root')
 )
