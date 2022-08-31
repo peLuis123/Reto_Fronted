@@ -14,7 +14,17 @@ para iniciar el proyecto utilizar el comando
 npm run dev
 
 
-
+//para los botones de siguiente se plantea almacenar cada siguiente en un objeto o vector con una funcion y cuando llegue a cierta cantidad elimine el boton siguiente y en su lugar muestre un boton finalizar 
 
 para el conteo de 2 minutos de grabacion se implementara un timer que cuando llegue a 120 segundos se finalizara automaticamente la grabacion 
 //falta implementar las funcionalidades de las preguntas
+
+
+el presente repositorio se adjunto una demostracion hasta el punto donde se pudo realizar el presente reto las disculpas del caso por no haber podido culminar el reto 
+--No se implemento funcionalidad a los botones de siguiente 
+--No se logro colocar cada pregunta en distintos formularios 
+--No se logro implementar el timer de 2 minutos en la funcion grabar
+
+**IMPORTANTE REVISAR EL ARCHIVO DEMO.MP4 EN EL CUAL SE ADJUNTARA UNA DEMOSTRACION DE LO QUE SE AVANZO HASTA EL PRESENTE DIA**
+
+**_MUCHAS GRACIAS_**
